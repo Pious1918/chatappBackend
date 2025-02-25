@@ -10,7 +10,7 @@ import pollModel from "./models/pollModel";
 const server = http.createServer(app)
 const io = new Server(server, {
     cors: {
-        origin: 'http://localhost:4200'
+        origin: 'https://chatapp-frontend-h2je.vercel.app'
     }
 })
 const port = process.env.SERVER_PORT || 3000
